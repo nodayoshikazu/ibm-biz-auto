@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.brl:ActionRule xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.brl="http://ilog.rules.studio/model/brl.ecore">
+  <name>Advise rule</name>
+  <uuid>421991a8-eab5-4d15-8697-edeae9574029</uuid>
+  <locale>en_US</locale>
+  <definition><![CDATA[if
+	Name is defined
+then
+	set decision to "Hello " + Name + "!" ;]]></definition>
+</ilog.rules.studio.model.brl:ActionRule>
