@@ -1,0 +1,8 @@
+{
+  "name": "Yuan",
+  "weather": {
+    "rainForecast": 90,
+    "temperature": "cold",
+    "stormAlert": true
+  }
+}

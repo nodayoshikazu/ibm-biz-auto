@@ -60,6 +60,7 @@
     <modules>
         <module>.decisionservice</module>
         <module>My model</module>
+        <module>data</module>
     </modules>
 
     <build>

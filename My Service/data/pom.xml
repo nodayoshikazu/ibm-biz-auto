@@ -8,7 +8,7 @@
     </parent>
 
     <groupId>u24062588.my_getting_started_4.my_service</groupId>
-    <artifactId>myModel</artifactId>
+    <artifactId>data</artifactId>
     <version>LATEST-SNAPSHOT</version>
 
     <build>
@@ -26,21 +26,16 @@
                 <configuration>
                     <deployments>
                         <deployment>
-                            <name>My-model</name>
+                            <name>data</name>
                         </deployment>
                     </deployments>
-                <packageName>u24062588.my_getting_started_4.my_service.mymodel</packageName>
+                <packageName>u24062588.my_getting_started_4.my_service.data</packageName>
                 </configuration>
             </plugin>
         </plugins>
     </build>
 
 <dependencies>
-        <dependency>
-            <groupId>u24062588.my_getting_started_4.my_service</groupId>
-            <artifactId>data</artifactId>
-            <version>LATEST-SNAPSHOT</version>
-        </dependency>
         <dependency>
             <groupId>com.ibm.decision</groupId>
             <artifactId>engine-compact-runtime</artifactId>
